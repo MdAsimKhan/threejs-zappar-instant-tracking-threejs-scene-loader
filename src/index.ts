@@ -6,8 +6,9 @@
 import * as THREE from 'three';
 import * as ZapparThree from '@zappar/zappar-threejs';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-const model = new URL('../assets/waving.glb', import.meta.url).href;
+const model = new URL('../assets/Stadium/Cricket.glb', import.meta.url).href;
 import './index.css';
+
 // The SDK is supported on many different browsers, but there are some that
 // don't provide camera access. This function detects if the browser is supported
 // For more information on support, check out the readme over at
